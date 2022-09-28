@@ -1,0 +1,121 @@
+@media only screen and (min-width:240px){
+    font-size: 62.5%
+
+}
+
+/* @media only screen and (min-width: 768px) {
+  font-size: 62.5%;
+  flex-wrap: wrap; */
+
+  ul{
+    /* text-align: center; */
+  }
+  p{
+    text-align: center;
+  }
+  address{
+    text-align: center;
+  }
+
+  #container {
+    display: flex;
+    background-color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .grid {
+    display: grid;
+    /* grid-template-columns: ; */
+  }
+  .grid-col {
+    grid-template-columns: 20%;
+  }
+  .grid-row {
+    grid-template-rows: 80%;
+  }
+  .cell {
+    grid-template-areas: ;
+  }
+  #my-info {
+    background-color: black;
+    color: white;
+  }
+  h2 {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  #technical:hover {
+    height: 150%;
+    background-color: black;
+    color: white;
+  }
+  #name {
+    background-color: lightgray;
+    /* flex-direction: row; */
+  }
+  #name:hover {
+    transform: scale(2);
+    transition-duration: 30s;
+    background-color: aquamarine;
+  }
+  #objective {
+    background-color: gray;
+    /* flex-direction: row; */
+  }
+  #education {
+    background-color: gray;
+    /* flex-direction: row; */
+  }
+  #technical {
+    background-color: gray;
+    /* flex-direction: row; */
+  }
+  #experience {
+  }
+  #expertise {
+    background-color: gray;
+    /* flex-direction: row; */
+  }
+  #skills {
+    background-color: gray;
+    /* flex-direction: row; */
+  }
+  #contacts {
+    animation: enhance 10s infinite;
+    transition-timing-function: ease-in-out;
+  }
+  @keyframes enhance {
+    transition-timing-function: ease-in-out;
+    0% {
+      transform-scale: (1);
+      color: white;
+      font-size: 1rem;
+      background-color: black;
+    }
+    25% {
+      transform-scale: (1.1);
+      color: gray;
+      font-size: 1.1rem;
+      background-color: black;
+    }
+    50% {
+      transform-scale: (1.2);
+      color: black;
+      font-size: 1.2rem;
+      background-color: white;
+    }
+    100% {
+      transform-scale: (1.1);
+      color: gray;
+      font-size: 1.1rem;
+      background-color: black;
+    }
+  }
+  @media print {
+    body {
+      background-color: white;
+      color: black;
+    }
+  /* } */
+
